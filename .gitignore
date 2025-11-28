@@ -1,0 +1,43 @@
+# Dependencies
+/node_modules
+
+# Build output
+/dist
+/.vite
+/build
+
+# Environment variables
+.env
+.env.*
+.env.local
+
+# Firebase local emulator configs (se usar)
+.firebase/
+.firebaserc
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / Sistema operacional
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Cache
+/.cache
+/.parcel-cache
+/.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: arquivos que não precisam no repositório
+# (Caso você tenha pastas de testes locais)
+tests/
+temp/
